@@ -1,0 +1,30 @@
+.carousel-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Set a max height to ensure images are not too large */
+    object-fit: cover; /* Ensure images cover the entire area */
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: #000; /* Change arrow color */
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px; /* Size of the dots */
+    color: #000; /* Color of the dots */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ff6969; /* Active dot color */
+  }
+  
+  .legend {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
